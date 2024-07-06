@@ -1,0 +1,29 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "labels": ["dependencies", "automated"],
+  "assignees": ["MrSom3body"],
+  "enabledManagers": ["github-actions", "git-submodules", "nix"],
+  "nix": {
+    "enabled": true
+  },
+  "git-submodules": {
+    "enabled": true
+  },
+  "packageRules": [
+    {
+      "matchManagers": ["git-submodules", "nix"],
+      "automerge": true,
+      "automergeType": "pr",
+      "groupName": "treewide: update",
+      "schedule": ["* 0-4 * * 1"]
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "automerge": true,
+      "automergeType": "pr",
+      "schedule": ["* 0-4 * * *"],
+      "commitMessagePrefix": "ci:"
+    }
+  ]
+}
