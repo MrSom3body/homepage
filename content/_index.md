@@ -13,4 +13,4 @@ welcome to my blog :)
 never gonna give you up
 {{< /typeit >}}
 
-posts soon™
+more posts soon™
