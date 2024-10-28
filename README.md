@@ -1,6 +1,6 @@
 # 🌐 MrSom3body's Homepage
 
-Welcome to the repository for my personal homepage! This site is powered by [Hugo](https://gohugo.io) and styled with the sleek [Blowfish](https://blowfish.page) theme. It's built and deployed using GitHub Actions, ensuring smooth integration and continuous deployment.
+Welcome to the repository for my personal homepage! This site is powered by [Hugo](https://gohugo.io) and styled with the sleek [Blowfish](https://blowfish.page) theme. It's built and deployed using [Cloudflare Pages](https://pages.cloudflare.com/), ensuring smooth integration and continuous deployment.
 
 ## 🛠️ Development & Setup
 
