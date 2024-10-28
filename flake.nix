@@ -14,7 +14,7 @@
       };
     in
       pkgs.mkShell {
-        name = "MrSom3body.github.io";
+        name = "homepage";
         packages = with pkgs; [
           hugo
         ];
