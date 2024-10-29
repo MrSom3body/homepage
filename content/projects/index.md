@@ -9,6 +9,13 @@ showWordCount: false
 groupByYear: false
 ---
 
+## homepage
+
+This project is the current website you're on. It started off as a school
+project in the subject media technology to test out [Hugo](https://gohugo.io/),
+but it turned out so good that I just kept using it as my actual homepage.
+{{< github repo="MrSom3body/homepage" >}}
+
 ## dotfiles
 
 These are my [NixOS](https://nixos.org) dotfiles. NixOS is a very different
