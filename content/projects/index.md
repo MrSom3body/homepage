@@ -20,8 +20,9 @@ but it turned out so good that I just kept using it as my actual homepage.
 
 These are my [NixOS](https://nixos.org) dotfiles. NixOS is a very different
 kind of Linux distribution, but I'm too lazy to write an article about it (yet),
-so here's a [quick introduction](https://youtu.be/FJVFXsNzYZQ) by [Fireship]
-(https://www.youtube.com/@Fireship). {{< github repo="MrSom3body/dotfiles" >}}
+so here's a [quick introduction](https://youtu.be/FJVFXsNzYZQ) by
+[Fireship](https://www.youtube.com/@Fireship).
+{{< github repo="MrSom3body/dotfiles" >}}
 
 ## vmware-installer
 
