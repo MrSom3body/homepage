@@ -2,8 +2,7 @@
 title: "about"
 date: 2024-02-14
 draft: false
-description: "a bit of me"
-summary: "Some info about MrSom3body"
+description: "Some info about Karun"
 showDate: false
 showReadingTime: false
 showWordCount: false
