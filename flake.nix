@@ -16,6 +16,8 @@
       pkgs.mkShell {
         name = "homepage";
         packages = with pkgs; [
+          just
+
           hugo
         ];
 
