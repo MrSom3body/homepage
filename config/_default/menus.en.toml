@@ -54,7 +54,7 @@ weight = 7
 # the copyright notice. Configure as per the main menu above.
 
 [[footer]]
-name = "Tags"
+name = "tags"
 pageRef = "tags"
 weight = 10
 
