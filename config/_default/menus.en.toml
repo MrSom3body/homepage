@@ -21,8 +21,8 @@ pageRef = "resume"
 weight = 2
 
 [[main]]
-name = "blog"
-pageRef = "blog"
+name = "posts"
+pageRef = "posts"
 weight = 3
 
 [[main]]
