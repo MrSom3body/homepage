@@ -122,7 +122,15 @@ If your output looks like mine: congratulations! If not, please make sure if you
 
 ## Unlocking LUKS Disk with TPM
 
-Enabling this is **extremely** easy. You only need one command:
+Enabling this is **extremely** easy. You need to add this config to your NixOS configuration to run SystemD in Stage 1 (`initrd`):
+
+```nix
+# ...
+boot.initrd.systemd.enable = true;
+# ...
+```
+
+And finally, run this command to tell systemd to decrypt it with our TPM chip:
 
 ```sh
 $ sudo systemd-cryptenroll --tpm2-device=auto --tpm2-pcrs=0+2+7+12 --wipe-slot=tpm2 <disk>
