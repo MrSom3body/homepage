@@ -6,6 +6,7 @@ description: "Karun's professional experiences, certificates and education"
 showDate: false
 showReadingTime: false
 showWordCount: false
+showEdit: false
 ---
 
 ## professional experience 💼

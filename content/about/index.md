@@ -7,6 +7,7 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showTableOfContents: false
+showEdit: false
 ---
 
 ## Hello, world

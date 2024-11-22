@@ -7,6 +7,7 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 groupByYear: false
+showEdit: false
 ---
 
 ## homepage
