@@ -1,6 +1,7 @@
 ---
 title: NixOS, Secure Boot and TPM based Full Disk Encryption
 date: 2024-11-21
+lastmod: 2024-11-22
 draft: false
 description: How to set up NixOS with Secure Boot and TPM based Full Disk Encryption (LUKS)
 summary: How to set up NixOS with Secure Boot and TPM based Full Disk Encryption (LUKS)
@@ -15,7 +16,7 @@ tags:
 **Info:** I won't go into detail what TPM or Secure Boot is, but rather just explain how to set it up
 {{</ alert >}}
 
-I have been using NixOS for some months now, and I must say I love it besides one or the other paint point, but I wondered for some time how I can set it up with Secure Boot. I just kept putting it of until now, but [here](https://github.com/MrSom3body/dotfiles/commit/7f6555a518dde45201cc9a3811b8264b57e7e031) it is!
+I have been using NixOS for some months now ([dots](https://github.com/MrSom3body/dotfiles)), and I must say I love it besides one or the other paint point, but I wondered for some time how I can set it up with Secure Boot. I just kept putting it of until now, but [here](https://github.com/MrSom3body/dotfiles/commit/7f6555a518dde45201cc9a3811b8264b57e7e031) it is!
 
 The few prerequisites for this tutorial/guide is a **flake-enabled NixOS configuration** and having **Secure Boot in Setup Mode[^1]**. Everything else we'll set up together.
 
