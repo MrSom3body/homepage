@@ -1,3 +1,4 @@
+alias s := serve
 alias u := update
 
 update:
