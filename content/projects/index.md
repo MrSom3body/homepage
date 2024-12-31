@@ -17,6 +17,13 @@ project in the subject media technology to test out [Hugo](https://gohugo.io/),
 but it turned out so good that I just kept using it as my actual homepage.
 {{< github repo="MrSom3body/homepage" >}}
 
+## gotcha
+
+`gotcha` is a quick little fetch written in go. The main purpose was to be
+faster than my old fetch [macchina](https://github.com/Macchina-CLI/macchina).
+Also it was/is my first _real_ project in go.
+{{< github repo="MrSom3body/gotcha" >}}
+
 ## dotfiles
 
 These are my [NixOS](https://nixos.org) dotfiles. NixOS is a very different
