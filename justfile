@@ -6,6 +6,6 @@ serve:
     hugo server
 
 update:
+    nix flake update
     git submodule update --remote --merge
     git add themes/blowfish
-    git commit -m "themes/blowfish: update" themes/blowfish
