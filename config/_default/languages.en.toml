@@ -16,7 +16,6 @@ image = "https://github.com/MrSom3body.png"
 headline = "exploring the world of linux and programming, one project at a time"
 bio = "a passionate programmer with a strong focus on linux and open-source software, constantly exploring new technologies"
 links = [
-  { email = "mailto:karun@sndh.dev" },
   { github = "https://github.com/MrSom3body" },
   { linkedin = "https://www.linkedin.com/in/karun-sandhu/" },
   { matrix = "https://matrix.to/#/@mrsom3body:matrix.org" },
