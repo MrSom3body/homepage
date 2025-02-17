@@ -8,4 +8,4 @@ serve:
 update:
     nix flake update
     git submodule update --remote --merge
-    git add themes/blowfish
+    git add themes/blowfish flake.lock
