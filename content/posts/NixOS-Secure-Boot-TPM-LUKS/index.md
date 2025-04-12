@@ -75,7 +75,7 @@ Now we can do one of two things:
 
 I added a new module to my NixOS configuration that I can import because it makes it easier to understand my config and makes it easier to keep everything related to it out in another module. Here's my module:
 
-{{< codeimporter url="https://github.com/MrSom3body/dotfiles/raw/refs/heads/main/system/core/lanzaboote.nix" type="nix" >}}
+{{< codeimporter url="https://github.com/MrSom3body/dotfiles/raw/refs/heads/main/hosts/common/optional/core/lanzaboote.nix" type="nix" >}}
 
 After you added Lanzabootes configuration to your NixOS configuration, **rebuild your system**. Next control if it really worked by checking if the keys were signed by running:
 
