@@ -8,6 +8,7 @@ showReadingTime: false
 showWordCount: false
 groupByYear: false
 showEdit: false
+showComments: false
 ---
 
 ## homepage

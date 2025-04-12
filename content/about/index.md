@@ -8,6 +8,7 @@ showReadingTime: false
 showWordCount: false
 showTableOfContents: false
 showEdit: false
+showComments: false
 ---
 
 ## Hello, world

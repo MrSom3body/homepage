@@ -7,6 +7,7 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showEdit: false
+showComments: false
 ---
 
 ## professional experience 💼
