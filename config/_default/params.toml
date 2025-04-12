@@ -73,7 +73,6 @@ showTaxonomies = true
 showAuthorsBadges = false
 showWordCount = true
 showComments = true
-sharingLinks = ["reddit", "twitter", "linkedin"]
 showZenMode = false
 
 [list]
