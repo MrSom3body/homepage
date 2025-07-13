@@ -35,7 +35,8 @@ jobs:
 
       - name: Update submodules
         run: |
-          git submodule update --remote
+          git submodule update --init
+          git submodule update --remote --rebase
 
       - name: Create Pull Request
         id: create-pr
