@@ -38,6 +38,7 @@ jobs:
           git submodule update --remote
 
       - name: Create Pull Request
+        id: create-pr
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GH_TOKEN_FOR_UPDATES }}
@@ -50,3 +51,11 @@ jobs:
             dependencies
             automated
           assignees: MrSom3body
+
+      - name: Auto merge
+        run: |
+          if [ -n "${{ steps.create-pr.outputs.pull-request-number }}" ]; then
+            gh pr merge --auto --rebase ${{ steps.create-pr.outputs.pull-request-number }}
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
