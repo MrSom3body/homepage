@@ -42,8 +42,8 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GH_TOKEN_FOR_UPDATES }}
-          commit-message: |
-            treewide: update
+          title: "treewide: update"
+          commit-message: "treewide: update"
           branch: update_website
           delete-branch: true
           sign-commits: true
