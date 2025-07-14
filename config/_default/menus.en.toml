@@ -31,7 +31,6 @@ pageRef = "projects"
 weight = 4
 
 [[main]]
-pre = "lightbulb"
 name = "services"
 pageRef = "services"
 weight = 5
