@@ -3,7 +3,12 @@
   src: url("/fonts/FiraCode-VF.ttf");
 }
 
+@font-face {
+  font-family: nerdfont-icons;
+  src: url("/fonts/SymbolsNerdFont-Regular.ttf");
+}
+
 html {
-  font-family: font;
+  font-family: font, nerdfont-icons;
   font-size: 1em;
 }
