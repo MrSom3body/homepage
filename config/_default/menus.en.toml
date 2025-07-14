@@ -40,6 +40,12 @@ weight = 5
 # the copyright notice. Configure as per the main menu above.
 
 [[footer]]
+pre = "rss-square"
+name = "rss"
+url = "/posts/index.xml"
+weight = 1
+
+[[footer]]
 name = "tags"
 pageRef = "tags"
 weight = 10
