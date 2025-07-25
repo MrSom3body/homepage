@@ -28,8 +28,15 @@ Linux, and technology in general. It will be a mix of tutorials, guides, and
 personal experiences. Hopefully, there's something for everyone, whether you're
 a beginner or an expert.
 
-For any questions you can reach me ([nohello.club](https://nohello.club))
-on [Discord](https://discord.com/users/598851082902306826),
+For any questions you can reach me on
+[Discord](https://discord.com/users/598851082902306826),
 [Matrix](https://matrix.to/#/@mrsom3body:matrix.org) or if it is related to
 the post use the Comments at the bottom (beware you will need a GitHub account
 for that).
+
+<figure>
+  <img
+    src="nohello_320_tr_w.png"
+    alt="nohello.club logo" />
+  <figcaption>Find out more on <a href="https://nohello.club">nohello.club</a></figcaption>
+</figure>
