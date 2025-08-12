@@ -34,6 +34,10 @@ For any questions you can reach me on
 the post use the Comments at the bottom (beware you will need a GitHub account
 for that).
 
+If you'd like to support me, you can do so via [my Proton
+Mail referral link](https://pr.tn/ref/0Z6AEQY5T7RG) or on
+[Ko-Fi](https://ko-fi.com/mrsom3body).
+
 <figure>
   <img
     src="nohello_320_tr_w.png"
