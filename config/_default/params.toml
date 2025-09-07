@@ -19,8 +19,9 @@ robots = "all"
 disableImageOptimization = false
 disableTextInHeader = false
 
-# defaultBackgroundImage = "img/homepage.png" # used as default for background images 
+# defaultBackgroundImage = "img/homepage.png" # used as default for background images
 # defaultFeaturedImage = "/img/homepage.jpg"  # used as default for featured images in all articles
+defaultSocialImage = "/img/background.png"
 
 highlightCurrentMenuArea = true
 smartTOC = true
