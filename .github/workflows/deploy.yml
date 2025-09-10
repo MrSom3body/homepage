@@ -49,6 +49,7 @@ jobs:
     if: github.ref != 'refs/heads/main'
     permissions:
       contents: read
+      issues: write
       pull-requests: write
     steps:
       - name: Download Artifacts
