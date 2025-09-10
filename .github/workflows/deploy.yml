@@ -57,7 +57,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: npx wrangler versions upload
+          command: versions upload
 
       - name: Comment or update PR
         uses: peter-evans/create-or-update-comment@v4
