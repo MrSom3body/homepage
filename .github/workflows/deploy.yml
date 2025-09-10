@@ -76,12 +76,12 @@ jobs:
         with:
           comment-id: ${{ steps.fc.outputs.comment-id }}
           issue-number: ${{ github.event.pull_request.number }}
+          edit-mode: replace
           body: |
             ## ${{ github.repository }} Preview
 
             **Status:** ${{ steps.deploy.outcome == 'success' && '✅ Deploy successful' || '❌ Deploy failed' }}
             **Preview URL:** ${{ steps.deploy.outcome == 'success' && steps.deploy.outputs.deployment-url || 'N/A' }}
-          edit-mode: replace
 
   deploy:
     runs-on: ubuntu-latest
