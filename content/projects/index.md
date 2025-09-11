@@ -18,6 +18,16 @@ project in the subject media technology to test out [Hugo](https://gohugo.io/),
 but it turned out so good that I just kept using it as my actual homepage.
 {{< github repo="MrSom3body/homepage" >}}
 
+## DiagNet
+
+[DiagNet](https://diagnet.dev) is my diploma thesis project that brings a
+Test-Driven Development (TDD)-inspired workflow to network engineering. It
+enables engineers to define, execute, and compare automated network tests,
+making it easier to validate configurations, detect issues, and ensure
+consistent results.
+
+<!-- {{ github repo="DiagNet/DiagNet" }} -->
+
 ## TuxShare
 
 TuxShare is an AirDrop-style file sharing tool for Linux and Windows, written
