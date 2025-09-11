@@ -1,12 +1,13 @@
 #
 
-{{< typeit
+{{< typeait
 tag="h3"
 speed=200
 lifeLike=true
 startDelay=10
 breakLines=false
 loop=true >}}
+bomboclad
 hey there!
 welcome to my blog :)
 hey there!
