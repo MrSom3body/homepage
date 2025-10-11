@@ -26,7 +26,7 @@ enables engineers to define, execute, and compare automated network tests,
 making it easier to validate configurations, detect issues, and ensure
 consistent results.
 
-<!-- {{ github repo="DiagNet/DiagNet" }} -->
+{{< github repo="DiagNet/DiagNet" >}}
 
 ## TuxShare
 
