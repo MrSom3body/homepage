@@ -10,22 +10,34 @@ colorScheme = "avocado"
 defaultAppearance = "dark"   # valid options: light or dark
 autoSwitchAppearance = false
 
+enableA11y = false
 enableSearch = true
-enableCodeCopy = true
+enableCodeCopy = false
+enableStructuredBreadcrumbs = false
+
+replyByEmail = false
 
 mainSections = ["posts"]
 robots = "all"
 
 disableImageOptimization = false
+disableImageOptimizationMD = false
 disableTextInHeader = false
 
-# defaultBackgroundImage = "img/homepage.png" # used as default for background images
-# defaultFeaturedImage = "/img/homepage.jpg"  # used as default for featured images in all articles
-defaultSocialImage = "/img/background.png"
+# defaultBackgroundImage = "IMAGE.jpg" # used as default for background images
+# defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
+defaultSocialImage = "/img/background.png" # used as default for social media sharing (Open Graph and Twitter)
+hotlinkFeatureImage = false
+# imagePosition = "50% 50%"
 
 highlightCurrentMenuArea = true
 smartTOC = true
 smartTOCHideUnfocusedChildren = false
+
+fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384", "sha256"
+
+giteaDefaultServer = "https://git.fsfe.org"
+forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 [header]
 layout = "fixed-fill-blur" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
@@ -38,15 +50,15 @@ showAppearanceSwitcher = false
 showScrollToTop = true
 
 [homepage]
-layout = "background"
+layout = "background" # valid options: page, profile, hero, card, background, custom
 homepageImage = "img/background.png" # used in: hero and card
 showRecent = true
 showRecentItems = 6
 showMoreLink = false
-showMoreLinkDest = "/posts"
+showMoreLinkDest = "/posts/"
 cardView = true
-cardViewScreenWidth = false
-layoutBackgroundBlur = true
+layoutBackgroundBlur = false # only used when layout equals background
+disableHeroImageFilter = true # only used when layout equals hero
 
 [article]
 showDate = true
@@ -55,9 +67,10 @@ showLikes = false
 showDateOnlyInArticle = false
 showDateUpdated = true
 showAuthor = true
+# showAuthorBottom = false
 showHero = true
-heroStyle = "big"                   # valid options: basic, big, background, thumbAndBackground
-layoutBackgroundBlur = false        # only used when heroStyle equals background or thumbAndBackground
+heroStyle = "big" # valid options: basic, big, background, thumbAndBackground
+layoutBackgroundBlur = false # only used when heroStyle equals background or thumbAndBackground
 layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
 showBreadcrumbs = true
 showDraftLabel = true
@@ -70,23 +83,28 @@ showPagination = true
 invertPagination = false
 showReadingTime = true
 showTableOfContents = true
-showTaxonomies = true
+showRelatedContent = false
+relatedContentLimit = 3
+showTaxonomies = true # use showTaxonomies OR showCategoryOnly, not both
+showCategoryOnly = false # use showTaxonomies OR showCategoryOnly, not both
 showAuthorsBadges = false
 showWordCount = false
 showComments = true
+# sharingLinks = [ "linkedin", "twitter", "bluesky", "mastodon", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram", "line"]
 showZenMode = false
 
 [list]
 showHero = true
-heroStyle = "basic"                # valid options: basic, big, background, thumbAndBackground
-layoutBackgroundBlur = true        # only used when heroStyle equals background or thumbAndBackground
+heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
+layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
 layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
 showBreadcrumbs = true
-showSummary = true
+showSummary = false
 showViews = false
 showLikes = false
 showTableOfContents = false
 showCards = true
+orderByWeight = false
 groupByYear = true
 cardView = true
 cardViewScreenWidth = false
@@ -98,7 +116,7 @@ excludedKinds = ["taxonomy", "term"]
 [taxonomy]
 showTermCount = true
 showHero = true
-heroStyle = "background"   # valid options: basic, big, background, thumbAndBackground
+heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
 showBreadcrumbs = true
 showViews = false
 showLikes = false
@@ -117,27 +135,46 @@ cardView = false
 cardViewScreenWidth = false
 
 [firebase]
-# apiKey = "XXXXXX"
-# authDomain = "XXXXXX"
-# projectId = "XXXXXX"
-# storageBucket = "XXXXXX"
-# messagingSenderId = "XXXXXX"
-# appId = "XXXXXX"
-# measurementId = "XXXXXX"
+  # apiKey = "XXXXXX"
+  # authDomain = "XXXXXX"
+  # projectId = "XXXXXX"
+  # storageBucket = "XXXXXX"
+  # messagingSenderId = "XXXXXX"
+  # appId = "XXXXXX"
+  # measurementId = "XXXXXX"
 
 [fathomAnalytics]
-# site = "ABC12345"
-# domain = "llama.yoursite.com"
+  # site = "ABC12345"
+  # domain = "llama.yoursite.com"
+
+[umamiAnalytics]
+  # websiteid = "ABC12345"
+  # domain = "llama.yoursite.com"
+  # dataDomains = "yoursite.com,yoursite2.com"
+  # scriptName = ""
+  # enableTrackEvent = true
+
+[selineAnalytics]
+  # token = "XXXXXX"
+  # enableTrackEvent = true
 
 [buymeacoffee]
-# identifier = ""
-# globalWidget = true
-# globalWidgetMessage = "Hello"
-# globalWidgetColor = "#FFDD00"
-# globalWidgetPosition = "Right"
+  # identifier = ""
+  # globalWidget = true
+  # globalWidgetMessage = "Hello"
+  # globalWidgetColor = "#FFDD00"
+  # globalWidgetPosition = "right"
 
 [verification]
-# google = ""
-# bing = ""
-# pinterest = ""
-# yandex = ""
+  # google = ""
+  # bing = ""
+  # pinterest = ""
+  # yandex = ""
+  # fediverse = ""
+
+[rssnext]
+  # feedId = ""
+  # userId = ""
+
+[advertisement]
+  # adsense = ""
