@@ -48,7 +48,7 @@ jobs:
           name: homepage
           path: |
             public/
-            wrangler.toml
+            wrangler.jsonc
 
   preview:
     name: Deploy (Preview)
@@ -70,6 +70,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: 'latest'
           command: versions upload
 
   comment:
@@ -110,3 +111,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: 'latest'
