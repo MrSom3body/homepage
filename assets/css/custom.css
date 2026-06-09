@@ -12,3 +12,31 @@ html {
   font-family: font, nerdfont-icons;
   font-size: 1em;
 }
+
+nav[aria-label="NixOS Webring"] {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.35rem 0.9rem;
+  border-radius: 9999px;
+  white-space: nowrap;
+}
+
+nav[aria-label="NixOS Webring"] img {
+  height: 1.3em;
+}
+
+nav[aria-label="NixOS Webring"] a {
+  text-decoration-line: none;
+  text-decoration-color: rgb(var(--color-primary-500));
+}
+
+nav[aria-label="NixOS Webring"] a:hover {
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}

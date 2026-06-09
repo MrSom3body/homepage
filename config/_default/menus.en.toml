@@ -41,9 +41,16 @@ url = "/posts/index.xml"
 weight = 1
 
 [[footer]]
+pre = "tag"
 name = "tags"
 pageRef = "tags"
 weight = 10
+
+[[footer]]
+pre = "heart"
+name = "support me"
+url = "https://ko-fi.com/mrsom3body"
+weight = 20
 
 # [[footer]]
 # name = "Categories"
