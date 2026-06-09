@@ -26,6 +26,15 @@ nav[aria-label="NixOS Webring"] {
   white-space: nowrap;
 }
 
+@media (max-width: 640px) {
+  nav[aria-label="NixOS Webring"] {
+    position: static;
+    transform: none;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+}
+
 nav[aria-label="NixOS Webring"] img {
   height: 1.3em;
 }
