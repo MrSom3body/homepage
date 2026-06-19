@@ -13,9 +13,9 @@ showComments: false
 
 ## Hello, world
 
-I'm Karun, and I'm excited to welcome you to my blog. I'm currently studying
-network technology at the [HTL Rennweg](https://htl.rennweg.at/) in Vienna,
-Austria.
+I'm Karun, and I'm excited to welcome you to my blog. I studied network
+technology and IT-Security at the [HTL Rennweg](https://htl.rennweg.at/) in
+Vienna, Austria.
 
 I'm quite passionate about technology, especially Linux and programming.
 Furthermore, I've been using **Linux** and programming in **Python** since 2020.
