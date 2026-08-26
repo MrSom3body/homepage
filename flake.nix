@@ -2,7 +2,7 @@
   description = "Nix flake for my homepage";
 
   inputs = {
-    nixpkgs.url = "nixpkgs/nixos-unstable";
+    nixpkgs.url = "https://channels.nixos.org/nixos-unstable/nixexprs.tar.xz";
     systems.url = "github:nix-systems/default-linux";
     git-hooks-nix = {
       url = "github:cachix/git-hooks.nix";
@@ -11,11 +11,7 @@
   };
 
   outputs =
-    {
-      self,
-      nixpkgs,
-      ...
-    }@inputs:
+    { self, nixpkgs, ... }@inputs:
     let
       inherit (nixpkgs) lib;
 
