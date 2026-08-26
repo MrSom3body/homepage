@@ -4,6 +4,7 @@
   "labels": ["dependencies", "automated"],
   "assignees": ["MrSom3body"],
   "enabledManagers": ["github-actions", "git-submodules", "nix"],
+  "commitMessageAction": "update",
   "nix": {
     "enabled": true
   },
@@ -12,11 +13,20 @@
   },
   "packageRules": [
     {
-      "matchManagers": ["git-submodules", "nix"],
+      "matchManagers": ["git-submodules"],
       "automerge": true,
       "automergeType": "pr",
-      "groupName": "treewide: update",
-      "schedule": ["* 0-4 * * 1"]
+      "schedule": ["* 0-4 * * 1"],
+      "commitMessagePrefix": "{{{depName}}}:",
+      "commitMessageTopic": ""
+    },
+    {
+      "matchManagers": ["nix"],
+      "automerge": true,
+      "automergeType": "pr",
+      "schedule": ["* 0-4 * * 1"],
+      "commitMessagePrefix": "flake.lock:",
+      "commitMessageTopic": "{{{depName}}}"
     },
     {
       "matchManagers": ["github-actions"],
@@ -30,6 +40,8 @@
     "enabled": true,
     "automerge": true,
     "schedule": ["* 0-4 * * 1"],
-    "commitMessage": "flake.lock: update"
+    "commitMessageAction": "update",
+    "commitMessagePrefix": "flake.lock:",
+    "commitMessageTopic": ""
   }
 }
