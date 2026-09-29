@@ -11,13 +11,6 @@ showEdit: false
 showComments: false
 ---
 
-## homepage
-
-This project is the current website you're on. It started off as a school
-project in the subject media technology to test out [Hugo](https://gohugo.io/),
-but it turned out so good that I just kept using it as my actual homepage.
-{{< github repo="MrSom3body/homepage" >}}
-
 ## DiagNet
 
 [DiagNet](https://diagnet.dev) is my diploma thesis project that brings a
@@ -27,6 +20,14 @@ making it easier to validate configurations, detect issues, and ensure
 consistent results.
 
 {{< github repo="DiagNet/DiagNet" >}}
+
+## dotfiles
+
+These are my [NixOS](https://nixos.org) dotfiles. NixOS is a very different
+kind of Linux distribution, but I'm too lazy to write an article about it (yet),
+so here's a [quick introduction](https://youtu.be/FJVFXsNzYZQ) by
+[Fireship](https://www.youtube.com/@Fireship).
+{{< github repo="MrSom3body/dotfiles" >}}
 
 ## TuxShare
 
@@ -52,10 +53,9 @@ unfortunately turned out as a real hassle to develop for, so it isn't maintained
 anymore.
 {{< github repo="TechTowers/CloudSurge" >}}
 
-## dotfiles
+## homepage
 
-These are my [NixOS](https://nixos.org) dotfiles. NixOS is a very different
-kind of Linux distribution, but I'm too lazy to write an article about it (yet),
-so here's a [quick introduction](https://youtu.be/FJVFXsNzYZQ) by
-[Fireship](https://www.youtube.com/@Fireship).
-{{< github repo="MrSom3body/dotfiles" >}}
+This project is the current website you're on. It started off as a school
+project in the subject media technology to test out [Hugo](https://gohugo.io/),
+but it turned out so good that I just kept using it as my actual homepage.
+{{< github repo="MrSom3body/homepage" >}}
